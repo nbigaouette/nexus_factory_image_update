@@ -3,7 +3,7 @@
 set -e
 
 # AOSP official download:
-# https://developers.google.com/android/images#bullhead
+# https://developers.google.com/android/images
 # https://forum.xda-developers.com/nexus-5x/orig-development/rom-cm14-1-nexus-5x-bullhead-t3496798
 
 download_url="https://dl.google.com/dl/android/aosp"
