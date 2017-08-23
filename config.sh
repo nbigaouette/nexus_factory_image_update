@@ -14,11 +14,13 @@ original_aosp_version="7.1.2"
 original_aosp_revision="n2g48c"
 original_archive_sha256="45d442a26832292df258d7be83de160f280681fa57a12932a3bccfbf088fc337"
 
+
 original_archive_filename="bullhead-${original_aosp_revision}-factory-${original_archive_sha256:0:8}.zip"
 
+aosp_fullname="aosp_${original_aosp_date}_${original_aosp_version}_${original_aosp_revision}"
 
 main_dir=`pwd`
 
-extracted_dir="extracted"
-
-final_dir="${main_dir}/aosp_${original_aosp_date}_${original_aosp_version}_${original_aosp_revision}"
+download_dir="${main_dir}/downloaded"
+extracted_dir="${main_dir}/extracted"
+final_dir="${main_dir}/${aosp_fullname}"
