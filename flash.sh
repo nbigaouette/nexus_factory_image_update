@@ -10,8 +10,8 @@ source config.sh
 # https://gist.github.com/MacKentoch/48ad6b91613213ee9774c138267e2ed4
 # https://www.reddit.com/r/LineageOS/comments/67agc2/update_of_nexus_5x_to_latest_nightliy_wrong/
 
-img_bootloader=`/bin/ls ${final_dir}/bootloader-bullhead-*.img`
-img_radio=`/bin/ls ${final_dir}/radio-bullhead-*.img`
+img_bootloader=`/bin/ls ${final_dir}/bootloader*.img`
+img_radio=`/bin/ls ${final_dir}/radio*.img`
 img_vendor=`/bin/ls ${final_dir}/vendor.img`
 
 
