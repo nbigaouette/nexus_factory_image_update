@@ -40,3 +40,10 @@ image's information:
 
 Run the `prepare_files.sh` script to download and extract, then `flash.sh` to
 flash the update.
+
+
+# Licensing
+
+nexus_factory_image_update is distributed under the terms of the Apache License (Version 2.0).
+
+See [LICENSE](./LICENSE) for details.
