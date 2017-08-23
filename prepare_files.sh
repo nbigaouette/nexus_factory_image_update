@@ -29,12 +29,12 @@ mkdir -p ${final_dir}
 mkdir -p "${extracted_dir}"
 cd "${extracted_dir}"
 unzip -n ${download_dir}/${original_archive_filename}
-cd "bullhead-${original_aosp_revision}"
-unzip -n image-bullhead-${original_aosp_revision}.zip
+cd "${device}-${original_aosp_revision}"
+unzip -n image-${device}-${original_aosp_revision}.zip
 
 cp vendor.img ${final_dir}/
-cp radio-bullhead-*.img ${final_dir}/
-cp bootloader-bullhead-*.img ${final_dir}/
+cp radio-${device}-*.img ${final_dir}/
+cp bootloader-${device}-*.img ${final_dir}/
 
 cd "${final_dir}"
 shasum -a 256 * > checksums.sha256
