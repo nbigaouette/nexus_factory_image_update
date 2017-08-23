@@ -13,7 +13,9 @@ if [[ ! -f "${download_dir}/${original_archive_filename}" ]]; then
     cd "${main_dir}"
 fi
 
-echo "${original_archive_sha256}  ${original_archive_filename}" > ${download_dir}/${aosp_fullname}.sha256
+tmp_checksum_file=`mktemp`
+echo "${original_archive_sha256}  ${original_archive_filename}" > ${tmp_checksum_file}
+mv ${tmp_checksum_file} ${download_dir}/${aosp_fullname}.sha256
 
 # Verify checksum
 cd "${download_dir}"
