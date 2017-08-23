@@ -14,6 +14,23 @@ img_bootloader=`/bin/ls ${final_dir}/bootloader-bullhead-*.img`
 img_radio=`/bin/ls ${final_dir}/radio-bullhead-*.img`
 img_vendor=`/bin/ls ${final_dir}/vendor.img`
 
+
+if [[ ! -e "${img_bootloader}" ]]; then
+    echo "ERROR: Could not find 'bootloader' image! Exiting."
+    exit 1
+fi
+
+if [[ ! -e "${img_radio}" ]]; then
+    echo "ERROR: Could not find 'radio' image! Exiting."
+    exit 1
+fi
+
+if [[ ! -e "${img_vendor}" ]]; then
+    echo "ERROR: Could not find 'vendor' image! Exiting."
+    exit 1
+fi
+
+
 cd ${final_dir}
 shasum -a 256 -c checksums.sha256
 cd -
