@@ -5,7 +5,7 @@ set -e
 source config.sh
 
 
-# Inspired by extracted/bullhead-n2g48c/flash-all.sh
+# Inspired by official script `flash-all.sh`.
 # See:
 # https://gist.github.com/MacKentoch/48ad6b91613213ee9774c138267e2ed4
 # https://www.reddit.com/r/LineageOS/comments/67agc2/update_of_nexus_5x_to_latest_nightliy_wrong/
