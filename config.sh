@@ -11,11 +11,14 @@ download_url="https://dl.google.com/dl/android/aosp"
 
 device="bullhead"
 
+
+# ------------------------------------------------------------------------------
 # 7.1.2 (N2G48C, Aug 2017)
 original_aosp_date="201708"
 original_aosp_version="7.1.2"
 original_aosp_revision="n2g48c"
 original_archive_sha256="45d442a26832292df258d7be83de160f280681fa57a12932a3bccfbf088fc337"
+# ------------------------------------------------------------------------------
 
 
 original_archive_filename="${device}-${original_aosp_revision}-factory-${original_archive_sha256:0:8}.zip"
