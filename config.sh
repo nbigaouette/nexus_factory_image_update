@@ -14,10 +14,16 @@ device="bullhead"
 
 # ------------------------------------------------------------------------------
 # 7.1.2 (N2G48C, Aug 2017)
-original_aosp_date="201708"
-original_aosp_version="7.1.2"
-original_aosp_revision="n2g48c"
-original_archive_sha256="45d442a26832292df258d7be83de160f280681fa57a12932a3bccfbf088fc337"
+# original_aosp_date="201708"
+# original_aosp_version="7.1.2"
+# original_aosp_revision="n2g48c"
+# original_archive_sha256="45d442a26832292df258d7be83de160f280681fa57a12932a3bccfbf088fc337"
+# ------------------------------------------------------------------------------
+# 8.1.0 (OPM3.171019.016, Mar 2018)
+original_aosp_date="201803"
+original_aosp_version="8.1.0"
+original_aosp_revision="opm3.171019.016"
+original_archive_sha256="6e4c89cba89bc9135abf3e8c12fcbf2c2fe77ceaf6ec6dbbb532baa78acf2f50"
 # ------------------------------------------------------------------------------
 
 
